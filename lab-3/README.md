@@ -6,22 +6,22 @@
 	function prototypes. Input all values from user in the Main () program and pass these variables/values to
 	the below functions as parameters. Call all these functions in Main () program and test them.
 
-	a. 	**int maximum(int num1, int num2, int num3, int num4, int num5);**
+	a. 	int maximum(int num1, int num2, int num3, int num4, int num5);
 		it returns maximum value of five numbers.
 
-	b. 	**int integerNumberLength(int num);**
+	b. 	int integerNumberLength(int num);
 		functions calculates the length of variable num and returns it’s length
 	
-	c. 	**char lowerLetter(char ch);**
+	c. 	char lowerLetter(char ch);
 		function converts a uppercase letter to lowercase and returns an lowercase letter. If letter is
 		already in lowerercase then return the same letter
 	
-	d. 	**bool pallindrome(int number);**
+	d. 	bool pallindrome(int number);
 		function checks wether a number is pallindrome or not. Returns true if number is
 		pallindrome otherwise returns false. A number is palindrome if it is the same while reading
 		from left or right sides i.e. 454, 6776, 123321 etc.
 	
-	e. 	**void largestNumberLength(int num1, int num2, int num3, int num4);**
+	e. 	void largestNumberLength(int num1, int num2, int num3, int num4);
 		displays on console which number has highest length. Use integerNumberLength() function
 		you've written above in part-2.
 
@@ -32,7 +32,7 @@
 
 # Task 03
 
-	Write a function **reverse ( int num )** which reverses the digits in its parameter and returns the result.
+	Write a function reverse ( int num ) which reverses the digits in its parameter and returns the result.
 	For example if num is 927 then it would return 729. Apply the function in a program that asks the user
 	10 numbers and reverses them.
 
@@ -41,7 +41,7 @@
 	22, 35, and so on. Define a function having one input parameter 'N', function displays the pentagonal
 	sequence upto 'N' numbers on console. i.eComputer Programing Lab
 
-				**void pentagonal ( int n );**
+				void pentagonal ( int n );
 
 	Use above given formula to calculate the pentagonal sequence.
 
@@ -50,15 +50,15 @@
 	Let a , b , c, d and e be five integer numbers. Input these five numbers from user. Write a C++ program
 	with a function having following prototype.
 
-			**void rotate(int& a, int& b, int& c, int& d, int& e)**
+			void rotate(int& a, int& b, int& c, int& d, int& e)
 
 	rotate function swaps the values of five input parameters a,b,c,d and e inside the function. Call the
 	rotate function in main program and display the updated values of variables.
 
-	Swap values such that **a = b , b = c, c=d, d=e and e = a.**
+	Swap values such that a = b , b = c, c=d, d=e and e = a.
 
 # Task 06
 
-	Write a function **fibonacci ( int n )** which calculates the Fibonacci series up to n-terms.
+	Write a function fibonacci ( int n ) which calculates the Fibonacci series up to n-terms.
 
 	___________________________________________________________________________________________________________
