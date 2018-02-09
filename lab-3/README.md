@@ -12,7 +12,7 @@
 	b. 	**int integerNumberLength(int num);**
 		functions calculates the length of variable num and returns it’s length
 	
-	c. 	**char lowerLetter(char ch);**
+	c. 	** char lowerLetter(char ch); **
 		function converts a uppercase letter to lowercase and returns an lowercase letter. If letter is
 		already in lowerercase then return the same letter
 	
