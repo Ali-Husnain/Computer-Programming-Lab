@@ -34,7 +34,7 @@ int main()
 {
 	int x;
 	cout<<"Enter a number to reverse it; ";
-	cin>>x
+	cin>>x;
 	reverseNum(x);
 
 	return 0;
