@@ -1,1 +1,1 @@
-# Structure 
+# Structural paradigm
