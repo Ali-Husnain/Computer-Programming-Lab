@@ -1,1 +1,1 @@
-# Class
+# Object-Oriented-Paradigm
