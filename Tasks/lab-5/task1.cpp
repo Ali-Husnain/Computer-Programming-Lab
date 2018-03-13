@@ -2,7 +2,6 @@
 #include <algorithm>
 using namespace std;
 
-
 class practise
 {
 private: 
