@@ -1,0 +1,7 @@
+/home/sasuke/Desktop/CPP/lab-12/task3.cpp: In function ‘int main()’:
+/home/sasuke/Desktop/CPP/lab-12/task3.cpp:32:9: error: redeclaration of ‘int j’
+     int j = 0;
+         ^
+/home/sasuke/Desktop/CPP/lab-12/task3.cpp:11:28: note: ‘int j’ previously declared here
+     int num,marks[12],i =0,j =0;
+                            ^

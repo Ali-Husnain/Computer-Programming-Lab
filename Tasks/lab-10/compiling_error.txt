@@ -1,0 +1,215 @@
+/home/sasuke/Desktop/CPP/lab-10/task.cpp: In copy constructor ‘wDays::wDays(const wDays&)’:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:4: error: no match for ‘operator*’ (operand type is ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’)
+    *array[i] =  *obj.array[i];
+    ^
+In file included from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66:0,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/complex:386:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const std::complex<_Tp>&)
+     operator*(const complex<_Tp>& __x, const complex<_Tp>& __y)
+     ^
+/usr/include/c++/5/complex:386:5: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:12: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::complex<_Tp>’
+    *array[i] =  *obj.array[i];
+            ^
+In file included from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66:0,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/complex:395:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const _Tp&)
+     operator*(const complex<_Tp>& __x, const _Tp& __y)
+     ^
+/usr/include/c++/5/complex:395:5: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:12: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::complex<_Tp>’
+    *array[i] =  *obj.array[i];
+            ^
+In file included from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66:0,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/complex:404:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator*(const _Tp&, const std::complex<_Tp>&)
+     operator*(const _Tp& __x, const complex<_Tp>& __y)
+     ^
+/usr/include/c++/5/complex:404:5: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:12: note:   candidate expects 2 arguments, 1 provided
+    *array[i] =  *obj.array[i];
+            ^
+In file included from /usr/include/c++/5/valarray:587:0,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:94,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/bits/valarray_after.h:404:5: note: candidate: template<class _Dom1, class _Dom2> std::_Expr<std::_BinClos<std::__multiplies, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__multiplies, typename _Dom1::value_type>::result_type> std::operator*(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(*, __multiplies)
+     ^
+/usr/include/c++/5/bits/valarray_after.h:404:5: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:12: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+    *array[i] =  *obj.array[i];
+            ^
+In file included from /usr/include/c++/5/valarray:587:0,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:94,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/bits/valarray_after.h:404:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__multiplies, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__multiplies, typename _Dom1::value_type>::result_type> std::operator*(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)
+     _DEFINE_EXPR_BINARY_OPERATOR(*, __multiplies)
+     ^
+/usr/include/c++/5/bits/valarray_after.h:404:5: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:12: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+    *array[i] =  *obj.array[i];
+            ^
+In file included from /usr/include/c++/5/valarray:587:0,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:94,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/bits/valarray_after.h:404:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__multiplies, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__multiplies, typename _Dom1::value_type>::result_type> std::operator*(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(*, __multiplies)
+     ^
+/usr/include/c++/5/bits/valarray_after.h:404:5: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:12: note:   candidate expects 2 arguments, 1 provided
+    *array[i] =  *obj.array[i];
+            ^
+In file included from /usr/include/c++/5/valarray:587:0,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:94,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/bits/valarray_after.h:404:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__multiplies, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__multiplies, typename _Dom1::value_type>::result_type> std::operator*(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(*, __multiplies)
+     ^
+/usr/include/c++/5/bits/valarray_after.h:404:5: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:12: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+    *array[i] =  *obj.array[i];
+            ^
+In file included from /usr/include/c++/5/valarray:587:0,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:94,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/bits/valarray_after.h:404:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__multiplies, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__multiplies, typename _Dom1::value_type>::result_type> std::operator*(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(*, __multiplies)
+     ^
+/usr/include/c++/5/bits/valarray_after.h:404:5: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:12: note:   candidate expects 2 arguments, 1 provided
+    *array[i] =  *obj.array[i];
+            ^
+In file included from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:94:0,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/valarray:1169:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__multiplies, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__multiplies, _Tp>::result_type> std::operator*(const std::valarray<_Tp>&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(*, __multiplies)
+ ^
+/usr/include/c++/5/valarray:1169:1: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:12: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::valarray<_Tp>’
+    *array[i] =  *obj.array[i];
+            ^
+In file included from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:94:0,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/valarray:1169:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__multiplies, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__multiplies, _Tp>::result_type> std::operator*(const std::valarray<_Tp>&, const _Tp&)
+ _DEFINE_BINARY_OPERATOR(*, __multiplies)
+ ^
+/usr/include/c++/5/valarray:1169:1: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:12: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::valarray<_Tp>’
+    *array[i] =  *obj.array[i];
+            ^
+In file included from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:94:0,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/valarray:1169:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__multiplies, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__multiplies, _Tp>::result_type> std::operator*(const _Tp&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(*, __multiplies)
+ ^
+/usr/include/c++/5/valarray:1169:1: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:12: note:   candidate expects 2 arguments, 1 provided
+    *array[i] =  *obj.array[i];
+            ^
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:17: error: no match for ‘operator*’ (operand type is ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’)
+    *array[i] =  *obj.array[i];
+                 ^
+In file included from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66:0,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/complex:386:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const std::complex<_Tp>&)
+     operator*(const complex<_Tp>& __x, const complex<_Tp>& __y)
+     ^
+/usr/include/c++/5/complex:386:5: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:29: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::complex<_Tp>’
+    *array[i] =  *obj.array[i];
+                             ^
+In file included from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66:0,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/complex:395:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const _Tp&)
+     operator*(const complex<_Tp>& __x, const _Tp& __y)
+     ^
+/usr/include/c++/5/complex:395:5: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:29: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::complex<_Tp>’
+    *array[i] =  *obj.array[i];
+                             ^
+In file included from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:66:0,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/complex:404:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator*(const _Tp&, const std::complex<_Tp>&)
+     operator*(const _Tp& __x, const complex<_Tp>& __y)
+     ^
+/usr/include/c++/5/complex:404:5: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:29: note:   candidate expects 2 arguments, 1 provided
+    *array[i] =  *obj.array[i];
+                             ^
+In file included from /usr/include/c++/5/valarray:587:0,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:94,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/bits/valarray_after.h:404:5: note: candidate: template<class _Dom1, class _Dom2> std::_Expr<std::_BinClos<std::__multiplies, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__multiplies, typename _Dom1::value_type>::result_type> std::operator*(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(*, __multiplies)
+     ^
+/usr/include/c++/5/bits/valarray_after.h:404:5: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:29: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+    *array[i] =  *obj.array[i];
+                             ^
+In file included from /usr/include/c++/5/valarray:587:0,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:94,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/bits/valarray_after.h:404:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__multiplies, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__multiplies, typename _Dom1::value_type>::result_type> std::operator*(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)
+     _DEFINE_EXPR_BINARY_OPERATOR(*, __multiplies)
+     ^
+/usr/include/c++/5/bits/valarray_after.h:404:5: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:29: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+    *array[i] =  *obj.array[i];
+                             ^
+In file included from /usr/include/c++/5/valarray:587:0,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:94,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/bits/valarray_after.h:404:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__multiplies, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__multiplies, typename _Dom1::value_type>::result_type> std::operator*(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(*, __multiplies)
+     ^
+/usr/include/c++/5/bits/valarray_after.h:404:5: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:29: note:   candidate expects 2 arguments, 1 provided
+    *array[i] =  *obj.array[i];
+                             ^
+In file included from /usr/include/c++/5/valarray:587:0,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:94,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/bits/valarray_after.h:404:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__multiplies, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__multiplies, typename _Dom1::value_type>::result_type> std::operator*(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(*, __multiplies)
+     ^
+/usr/include/c++/5/bits/valarray_after.h:404:5: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:29: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::_Expr<_Dom1, typename _Dom1::value_type>’
+    *array[i] =  *obj.array[i];
+                             ^
+In file included from /usr/include/c++/5/valarray:587:0,
+                 from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:94,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/bits/valarray_after.h:404:5: note: candidate: template<class _Dom> std::_Expr<std::_BinClos<std::__multiplies, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__multiplies, typename _Dom1::value_type>::result_type> std::operator*(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)
+     _DEFINE_EXPR_BINARY_OPERATOR(*, __multiplies)
+     ^
+/usr/include/c++/5/bits/valarray_after.h:404:5: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:29: note:   candidate expects 2 arguments, 1 provided
+    *array[i] =  *obj.array[i];
+                             ^
+In file included from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:94:0,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/valarray:1169:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__multiplies, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__multiplies, _Tp>::result_type> std::operator*(const std::valarray<_Tp>&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(*, __multiplies)
+ ^
+/usr/include/c++/5/valarray:1169:1: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:29: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::valarray<_Tp>’
+    *array[i] =  *obj.array[i];
+                             ^
+In file included from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:94:0,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/valarray:1169:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__multiplies, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__multiplies, _Tp>::result_type> std::operator*(const std::valarray<_Tp>&, const _Tp&)
+ _DEFINE_BINARY_OPERATOR(*, __multiplies)
+ ^
+/usr/include/c++/5/valarray:1169:1: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:29: note:   ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ is not derived from ‘const std::valarray<_Tp>’
+    *array[i] =  *obj.array[i];
+                             ^
+In file included from /usr/include/x86_64-linux-gnu/c++/5/bits/stdc++.h:94:0,
+                 from /home/sasuke/Desktop/CPP/lab-10/task.cpp:1:
+/usr/include/c++/5/valarray:1169:1: note: candidate: template<class _Tp> std::_Expr<std::_BinClos<std::__multiplies, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__multiplies, _Tp>::result_type> std::operator*(const _Tp&, const std::valarray<_Tp>&)
+ _DEFINE_BINARY_OPERATOR(*, __multiplies)
+ ^
+/usr/include/c++/5/valarray:1169:1: note:   template argument deduction/substitution failed:
+/home/sasuke/Desktop/CPP/lab-10/task.cpp:21:29: note:   candidate expects 2 arguments, 1 provided
+    *array[i] =  *obj.array[i];
+                             ^

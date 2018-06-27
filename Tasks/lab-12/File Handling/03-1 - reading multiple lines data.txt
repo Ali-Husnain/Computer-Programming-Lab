@@ -1,0 +1,21 @@
+#include<iostream>
+#include<fstream>
+#include<string>
+
+using namespace std;
+
+int main()
+{
+	string str;
+	ifstream in;
+	in.open("input.txt");
+	while(!in.eof())
+	{	
+		in>>str;
+		cout<<str<<" ";
+	}
+	cout<<endl;
+	in.close();
+
+system("pause");
+}

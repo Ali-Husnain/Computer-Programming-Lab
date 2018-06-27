@@ -1,0 +1,23 @@
+#include<iostream>
+#include<fstream>
+
+using namespace std;
+
+int main()
+{
+
+// method-1;  without using open() function
+ofstream out("input.txt");
+
+out.close();
+
+
+// method-2; using open() function
+
+//ofstream out;
+//out.open("input.txt");
+//out.close();
+
+
+system("pause");
+}
